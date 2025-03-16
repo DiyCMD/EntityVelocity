@@ -1,0 +1,7 @@
+name: EntityVelocity
+version: ${version}
+description: エンティティのMotionを操作
+api-version: 1.21
+author: diycmd
+
+main: io.github.diycmd.entity_velocity.Main
