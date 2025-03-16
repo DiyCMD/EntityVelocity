@@ -55,13 +55,13 @@ public class Main extends JavaPlugin {
                     new IntegerArgument("velocity_x", -1000000, 1000000),
                     new IntegerArgument("velocity_y", -1000000, 1000000),
                     new IntegerArgument("velocity_z", -1000000, 1000000)
-                        .executes(fcmdExecutor))
+                        .executes(icmdExecutor))
                 .thenNested(
                     new LiteralArgument("setf"),
                     new FloatArgument("velocity_x", -100, 100),
                     new FloatArgument("velocity_y", -100, 100),
                     new FloatArgument("velocity_z", -100, 100)
-                        .executes(icmdExecutor)));
+                        .executes(fcmdExecutor)));
 
         cmd.register();
     }
