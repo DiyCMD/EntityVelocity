@@ -6,6 +6,15 @@
 
 -   1.21
 
+## ダウンロード
+
+以下のページからダウンロード  
+`EntityVelocity-x.y.z.jar`をダウンロードしてください
+
+[最新](https://github.com/DiyCMD/EntityVelocity/releases/latest)はこちら
+
+-   [1.0.0](https://github.com/DiyCMD/EntityVelocity/releases/v1.0.0)
+
 ## 使い方
 
 ### 速度を小数で設定
